@@ -141,7 +141,7 @@ def random_tarot(name):
 
 # Entry point
 def main():
-    """ this function is the entry point fir the whole script, our program starts here, first displays the intro then executes rest of the function """
+    """ this function is the entry point for the whole script, our program starts here, first displays the intro then executes rest of the function """
     display_intro()
     action = get_input("Continue? (yes,no)", choice=("yes", "no"))
     if action == "yes":
