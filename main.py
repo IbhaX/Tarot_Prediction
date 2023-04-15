@@ -132,7 +132,7 @@ def random_tarot(name):
                 continue
             else:
                 break
-        Print("Hope you enjoyed knowing your luck {name}...\n", speed=PRINT_SPEED)
+        Print(f"Hope you enjoyed knowing your luck {name}...\n", speed=PRINT_SPEED)
         Print("Good Bye...", speed=PRINT_SPEED)
         Print()
     else:
